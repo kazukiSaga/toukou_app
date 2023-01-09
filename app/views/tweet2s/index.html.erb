@@ -1,0 +1,12 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Tweet2s</h1>
+
+<div id="tweet2s">
+  <% @tweet2s.each do |tweet2| %>
+    <%= render tweet2 %>
+  <% end %>
+</div>
+
+
+<%= paginate @tweet2s %>
