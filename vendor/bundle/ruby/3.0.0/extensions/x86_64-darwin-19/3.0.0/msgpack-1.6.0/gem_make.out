@@ -1,5 +1,5 @@
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/ext/msgpack
-/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20230108-22373-502ddv.rb extconf.rb
+/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/site_ruby/3.0.0 -r ./siteconf20230110-43144-7te34h.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... no
 checking for rb_enc_interned_str() in ruby.h... yes
@@ -7,10 +7,10 @@ checking for rb_hash_new_capa() in ruby.h... no
 creating Makefile
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/ext/msgpack
-make DESTDIR\= clean
+make "DESTDIR=" clean
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/ext/msgpack
-make DESTDIR\=
+make "DESTDIR="
 compiling buffer.c
 compiling buffer_class.c
 compiling extension_value_class.c
@@ -26,5 +26,5 @@ compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/ext/msgpack
-make DESTDIR\= install
-/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20230108-22373-8yf6nu/msgpack
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20230110-43144-ig5a0t/msgpack

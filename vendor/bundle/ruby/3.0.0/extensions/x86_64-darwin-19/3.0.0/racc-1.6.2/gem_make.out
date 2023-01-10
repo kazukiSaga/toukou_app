@@ -1,17 +1,17 @@
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
-/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20230108-22373-gb8ovx.rb extconf.rb
+/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/site_ruby/3.0.0 -r ./siteconf20230110-43144-xwyk4i.rb extconf.rb
 checking for rb_block_call()... yes
 checking for rb_ary_subseq()... yes
 creating Makefile
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
-make DESTDIR\= clean
+make "DESTDIR=" clean
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
-make DESTDIR\=
+make "DESTDIR="
 compiling cparse.c
 linking shared-object racc/cparse.bundle
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/racc-1.6.2/ext/racc/cparse
-make DESTDIR\= install
-/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230108-22373-28cm7q/racc
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230110-43144-8raf3c/racc

@@ -1,5 +1,5 @@
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
-/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20230108-22373-32k3ta.rb extconf.rb
+/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/site_ruby/3.0.0 -r ./siteconf20230110-43144-8abv3m.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -13,10 +13,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= clean
+make "DESTDIR=" clean
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\=
+make "DESTDIR="
 compiling bytebuffer.c
 bytebuffer.c:308:20: warning: implicit conversion loses integer precision: 'ssize_t' (aka 'long') to 'int' [-Wshorten-64-to-32]
     return INT2NUM(bytes_read);
@@ -106,5 +106,5 @@ VALUE rb_ensure(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE),VALUE);
 linking shared-object nio4r_ext.bundle
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20230108-22373-fv36ap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20230110-43144-rj2ap3

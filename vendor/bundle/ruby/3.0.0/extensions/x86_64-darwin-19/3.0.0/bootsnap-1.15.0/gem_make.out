@@ -1,15 +1,15 @@
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
-/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20230108-22373-iauf5n.rb extconf.rb
+/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/site_ruby/3.0.0 -r ./siteconf20230110-43144-fliggb.rb extconf.rb
 creating Makefile
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
-make DESTDIR\= clean
+make "DESTDIR=" clean
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
-make DESTDIR\=
+make "DESTDIR="
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.15.0/ext/bootsnap
-make DESTDIR\= install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230108-22373-8o0luj/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230110-43144-wvm7as/bootsnap

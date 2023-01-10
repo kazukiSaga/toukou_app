@@ -1,16 +1,16 @@
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
-/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20230108-22373-lj2etq.rb extconf.rb
+/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/site_ruby/3.0.0 -r ./siteconf20230110-43144-13m4c2.rb extconf.rb
 creating Makefile
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
-make DESTDIR\= clean
+make "DESTDIR=" clean
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
-make DESTDIR\=
+make "DESTDIR="
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.bundle
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
-make DESTDIR\= install
-/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230108-22373-fpac1j/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230110-43144-jedh0m/debug

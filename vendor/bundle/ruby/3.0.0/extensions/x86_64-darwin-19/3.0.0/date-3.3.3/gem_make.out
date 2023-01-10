@@ -1,15 +1,15 @@
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/date-3.3.3/ext/date
-/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20230108-22373-e500h1.rb extconf.rb
+/Users/sagakazuki/.rbenv/versions/3.0.4/bin/ruby -I /Users/sagakazuki/.rbenv/versions/3.0.4/lib/ruby/site_ruby/3.0.0 -r ./siteconf20230110-43144-j01hkt.rb extconf.rb
 checking for rb_category_warn()... yes
 checking for timezone in time.h with  -Werror... yes
 checking for altzone in time.h with  -Werror... no
 creating Makefile
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/date-3.3.3/ext/date
-make DESTDIR\= clean
+make "DESTDIR=" clean
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/date-3.3.3/ext/date
-make DESTDIR\=
+make "DESTDIR="
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -17,5 +17,5 @@ compiling date_strptime.c
 linking shared-object date_core.bundle
 
 current directory: /Users/sagakazuki/Desktop/toukou/toukou_app/vendor/bundle/ruby/3.0.0/gems/date-3.3.3/ext/date
-make DESTDIR\= install
-/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20230108-22373-y4umkr
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20230110-43144-fjut0y
